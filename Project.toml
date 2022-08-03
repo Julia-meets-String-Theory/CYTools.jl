@@ -1,0 +1,13 @@
+name = "CYTools"
+uuid = "6ac8560f-9240-4675-9403-0b04e120aa3e"
+authors = ["Martin Bies <MBies87@googlemail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
