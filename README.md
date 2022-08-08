@@ -13,3 +13,7 @@ On the long run, a key step towards writing this package is to re-write core alg
 [![codecov](https://codecov.io/gh/HereAround/CYTools.jl/branch/master/graph/badge.svg?token=RX0SNJAVQZ)](https://codecov.io/gh/HereAround/CYTools.jl)
 
 [Go to the sunburst graph](https://codecov.io/gh/HereAround/CYTools.jl/branch/master/graphs/sunburst.svg?token=RX0SNJAVQZ)
+
+[![CI](https://github.com/HereAround/CYTools.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/HereAround/CYTools.jl/actions/workflows/CI.yml)
+
+[![CI](https://github.com/HereAround/CYTools.jl/actions/workflows/CI.yml/badge.svg?branch=gh-pages)](https://github.com/HereAround/CYTools.jl/actions/workflows/CI.yml)
