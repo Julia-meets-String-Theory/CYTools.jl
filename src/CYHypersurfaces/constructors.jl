@@ -9,12 +9,12 @@ end
 export CYHypersurface
 
 
-######################
-# 2: Generic constructors
-######################
+#######################################
+# 2: Generic constructor
+#######################################
 
 @doc Markdown.doc"""
-    CYHypersurface(vertices::Matrix{T}) where {T <: IntegerUnion}
+    CYHypersurface(vertices::Matrix{Int})
 
 Construct the Calabi-Yau hypersurface in a normal toric variety
 with rays given as the vertices of a polytope.
@@ -25,17 +25,17 @@ julia> CYHypersurface([1 0; 0 1])
 A Calabi-Yau hypersurface
 ```
 """
-function CYHypersurface(vertices::Matrix{T}) where {T <: IntegerUnion}
+function CYHypersurface(vertices::Matrix{Int})
     return CYHypersurface(convex_hull(vertices))
 end
 export CYHypersurface
 
 
-######################
-# 6: Display
-######################s
+#######################################
+# 3: Display
+#######################################
 
-function Base.show(io::IO, td::ToricDivisor)
+function Base.show(io::IO, cy::CYHypersurface)
     properties_string = ["A Calabi-Yau hypersurface"]
     join(io, properties_string, ", ", " ")
 end
