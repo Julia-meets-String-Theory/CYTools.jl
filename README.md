@@ -10,10 +10,11 @@ On the long run, a key step towards writing this package is to re-write core alg
 
 ## Code coverage and tests
 
-[![codecov](https://codecov.io/gh/HereAround/CYTools.jl/branch/master/graph/badge.svg?token=RX0SNJAVQZ)](https://codecov.io/gh/HereAround/CYTools.jl)
+* General test: [![CI](https://github.com/HereAround/CYTools.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/HereAround/CYTools.jl/actions/workflows/CI.yml)
+* Tests in documentation: [![pages-build-deployment](https://github.com/HereAround/CYTools.jl/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/HereAround/CYTools.jl/actions/workflows/pages/pages-build-deployment)
+* Code coverage: [![codecov](https://codecov.io/gh/HereAround/CYTools.jl/branch/master/graph/badge.svg?token=RX0SNJAVQZ)](https://codecov.io/gh/HereAround/CYTools.jl)
+* [Sunburst graph on code coverage](https://codecov.io/gh/HereAround/CYTools.jl/branch/master/graphs/sunburst.svg?token=RX0SNJAVQZ)
 
-[Go to the sunburst graph](https://codecov.io/gh/HereAround/CYTools.jl/branch/master/graphs/sunburst.svg?token=RX0SNJAVQZ)
+## Documentation
 
-[![CI](https://github.com/HereAround/CYTools.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/HereAround/CYTools.jl/actions/workflows/CI.yml)
-
-[![CI](https://github.com/HereAround/CYTools.jl/actions/workflows/CI.yml/badge.svg?branch=gh-pages)](https://github.com/HereAround/CYTools.jl/actions/workflows/CI.yml)
+For the most recent documentation see [here](https://herearound.github.io/CYTools.jl/).
