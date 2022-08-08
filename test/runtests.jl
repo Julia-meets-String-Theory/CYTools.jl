@@ -1,6 +1,7 @@
 using CYTools
 using Test
 
-@testset "CYTools.jl" begin
-    # Write your tests here.
+# Add better tests here.
+@testset "Generic test" begin
+    @test 1+1 == 2
 end
