@@ -6,4 +6,4 @@ DocMeta.setdocmeta!(CYTools, :DocTestSetup, :(using CYTools, Random); recursive 
 
 makedocs(sitename="CYTools")
 
-deploydocs(repo = "https://github.com/HereAround/CYTools.jl.git")
+deploydocs(repo = "github.com/HereAround/CYTools.jl.git")
