@@ -11,7 +11,7 @@ Pages = ["CYHypersurfaces.md"]
 ## Constructors
 
 ```@docs
-CYHypersurface(vertices::Matrix{T}) where {T <: IntegerUnion}
+CYHypersurface(vertices::Matrix{Int})
 ```
 
 
