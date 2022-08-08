@@ -11,3 +11,5 @@ On the long run, a key step towards writing this package is to re-write core alg
 ## Code coverage and tests
 
 [![codecov](https://codecov.io/gh/HereAround/CYTools.jl/branch/master/graph/badge.svg?token=RX0SNJAVQZ)](https://codecov.io/gh/HereAround/CYTools.jl)
+
+[Go to the sunburst graph](https://codecov.io/gh/HereAround/CYTools.jl/branch/master/graphs/sunburst.svg?token=RX0SNJAVQZ)
