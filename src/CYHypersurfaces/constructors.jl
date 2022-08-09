@@ -3,8 +3,8 @@
 #######################################
 
 @attributes mutable struct CYHypersurface
-    polytope::Polyhedron{fmpq}
-    CYHypersurface(polytope::Polyhedron{fmpq}) = new(polytope)
+    polytope::Polyhedron
+    CYHypersurface(polytope::Polyhedron) = new(polytope)
 end
 export CYHypersurface
 
@@ -21,7 +21,7 @@ with rays given as the vertices of a polytope.
 
 # Examples
 ```jldoctest
-julia> CYHypersurface([1 0; 0 1])
+julia> CYHypersurface([1 0; 0 1; -1 -1])
 A Calabi-Yau hypersurface
 ```
 """

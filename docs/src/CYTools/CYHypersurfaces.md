@@ -14,4 +14,8 @@ Pages = ["CYHypersurfaces.md"]
 CYHypersurface(vertices::Matrix{Int})
 ```
 
+## Properties
 
+```@docs
+polytope(cy::CYHypersurface)
+```
