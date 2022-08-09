@@ -64,4 +64,4 @@ We use a `slack`-channel for general discussions. If you are interested in joini
 
 ## Funding
 
-The work of Martin Bies is supported by the Simons Foundation Collaboration grant \#390287 on ``Homological Mirror Symmetry``and the Simons Foundation Collaboration grant \#724069 on ``Special Holonomy in Geometry, Analysis and Physics``.
+The work of Martin Bies is supported by the Simons Foundation Collaboration grant \#390287 on `Homological Mirror Symmetry` and the Simons Foundation Collaboration grant \#724069 on `Special Holonomy in Geometry, Analysis and Physics`.
