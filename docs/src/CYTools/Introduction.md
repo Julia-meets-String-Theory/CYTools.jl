@@ -6,6 +6,8 @@ CurrentModule = CYTools
 Pages = ["Introduction.md"]
 ```
 
+# Overview
+
 ## Goal
 
 The package CYTools.jl aims towards making the *entire* functionality of the Python package [CYTools](https://cytools.liammcallistergroup.com/about/) available in Julia. We base this project on [OSCAR](https://oscar.computeralgebra.de/) for general functionality on toric spaces, polyhedral geometry etc. Specialized algorithms (for CICYs, 3 and 4-dimensional reflexive polytopes in the Kreuzer-Skarke list) will be collected in this Julia package.
