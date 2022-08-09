@@ -25,14 +25,14 @@ For the most recent documentation see [here](https://herearound.github.io/CYTool
 ## Installation for Linux
 
 1. Install `Julia` on your computer. The latest version can be found [here](https://julialang.org/downloads/).
-2. Clone this development version of `CYTools.jl`:
-
+2. Download this development version of `CYTools.jl`. Those interested in contributing should instead clone this repository: 
+```
     git clone https://github.com/HereAround/CYTools.jl.git
-
-   Alternatively, download `CYTools.jl` to your system.
+```
 3. Place your clone/download in a location outside of the `.julia` folder of your home folder.
 4. Finally, register and build `CYTools.jl` as follows:
-
+```julia
     using Pkg
     Pkg.develop(path="path/to/your/CYTools.jl")
     Pkg.build("CYTools")
+```
