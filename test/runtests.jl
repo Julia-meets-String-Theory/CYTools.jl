@@ -1,6 +1,6 @@
-using Oscar
-using CYTools
 using Test
+using CYTools
+using Oscar
 
 cy = CYHypersurface([1 0; 0 1; -1 -1])
 
