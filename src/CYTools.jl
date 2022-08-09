@@ -29,5 +29,6 @@ const version = IS_DEV ? VersionNumber("$(VERSION_NUMBER)-dev") : VERSION_NUMBER
 
 # include files
 include("CYHypersurfaces/constructors.jl")
+include("CYHypersurfaces/properties.jl")
 
 end
