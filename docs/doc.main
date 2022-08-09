@@ -2,6 +2,7 @@
    "index.md",
 
    "CYTools" => [
+      "CYTools/Introduction.md"
       "CYTools/CYHypersurfaces.md"
    ],
 ]

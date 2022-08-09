@@ -1,4 +1,10 @@
-# CYTools.jl
+```@meta
+CurrentModule = CYTools
+```
+
+```@contents
+Pages = ["Introduction.md"]
+```
 
 ## Goal
 
@@ -14,17 +20,10 @@ On the long run, a key step towards writing this package is to re-write core alg
 This project just began. We are currently in the process of initiating the code migration from [CYTools](https://cytools.liammcallistergroup.com/about/). This we hope to yield a first functional `Julia` version by fall 2022. Further code optimization (in particular increased performance) is saved for a later stage of this project.
 
 
-## Code coverage and tests
-
-* [![CI](https://github.com/HereAround/CYTools.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/HereAround/CYTools.jl/actions/workflows/CI.yml)
-* [![pages-build-deployment](https://github.com/HereAround/CYTools.jl/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/HereAround/CYTools.jl/actions/workflows/pages/pages-build-deployment)
-* [![codecov](https://codecov.io/gh/HereAround/CYTools.jl/branch/master/graph/badge.svg?token=RX0SNJAVQZ)](https://codecov.io/gh/HereAround/CYTools.jl)
-
-
 ## Installation instructions for Linux
 
 1. Install `Julia` on your computer. The latest version can be found [here](https://julialang.org/downloads/).
-2. Download this development version of `CYTools.jl`. Those interested in contributing should instead clone this repository: 
+2. Download this development version of `CYTools.jl`. Those interested in contributing should instead clone this repository:
 ```
     git clone https://github.com/HereAround/CYTools.jl.git
 ```
@@ -37,14 +36,12 @@ This project just began. We are currently in the process of initiating the code 
 ```
 
 
-## Documentation
-
-For detailed information about the implemented functionality, please take a look at the most recent [documentation](https://herearound.github.io/CYTools.jl/dev/).
-
-
 ## Bugs and feature requests
 
 If you want to report a bug or request a feature, please do it by raising a [github issue](https://github.com/HereAround/CYTools.jl/issues).
+```@docs
+version
+```
 
 
 ## Contributions
