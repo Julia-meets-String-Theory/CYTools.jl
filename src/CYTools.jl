@@ -1,9 +1,10 @@
 module CYTools
 
 # use other Julia packages
+using HTTP
 using Markdown
-using Pkg
 using Oscar
+using Pkg
 
 """
 Initializing function for 'CYTools'.
