@@ -1,5 +1,3 @@
-using  HTTP
-
 @doc Markdown.doc"""
 read_polytopes(input::String; <keyword arguments>)
 
@@ -11,6 +9,7 @@ database is supported, but in the future we may support weight systems.
 # Examples
 ```jldoctest
 julia> example_string = "4 5  M:201 5 N:7 5 H:1,149 [-296]\n1   1   1   1  -7\n0   2   2   2  -6\n0   0   8   0  -8\n0   0   0   8  -8"
+
 julia> read_polytopes(example_string, input_type="string")
 1-element Vector{Matrix{Int64}}:
  [1 0 0 0; 1 2 0 0; … ; 1 2 0 8; -7 -6 -8 -8]
