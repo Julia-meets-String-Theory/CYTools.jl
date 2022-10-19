@@ -1,5 +1,5 @@
 @doc Markdown.doc"""
-read_polytopes(input::String; <keyword arguments>)
+read_polytopes(input::String; input_type::String="file", format::String="ks")
 
 Read the polytopes from a string or file. The parameter `input` can serve the
 input string or the filename depending on whether the keyword argument `input_type`
@@ -8,7 +8,7 @@ database is supported, but in the future we may support weight systems.
 
 # Examples
 ```jldoctest
-julia> example_string = "4 5  M:201 5 N:7 5 H:1,149 [-296]\n1   1   1   1  -7\n0   2   2   2  -6\n0   0   8   0  -8\n0   0   0   8  -8"
+julia> example_string = "4 5  M:201 5 N:7 5 H:1,149 [-296]\n1   1   1   1  -7\n0   2   2   2  -6\n0   0   8   0  -8\n0   0   0   8  -8";
 
 julia> read_polytopes(example_string, input_type="string")
 1-element Vector{Matrix{Int64}}:
@@ -64,7 +64,12 @@ end
 export read_polytopes
 
 @doc Markdown.doc"""
-fetch_polytopes(; <keyword arguments>)
+fetch_polytopes(; h11::Union{Int, Nothing}=nothing, h12::Union{Int, Nothing}=nothing,
+                         h13::Union{Int, Nothing}=nothing, h22::Union{Int, Nothing}=nothing,
+                         chi::Union{Int, Nothing}=nothing, lattice::Union{Char, Nothing}=nothing,
+                         dim::Int=4, n_points::Union{Int, Nothing}=nothing,
+                         n_vertices::Union{Int, Nothing}=nothing, n_dual_points::Union{Int, Nothing}=nothing,
+                         n_facets::Union{Int, Nothing}=nothing, limit::Int=1000, timeout::Int=60, raw_output::Bool=false)
 
 Fetch polytopes from the Kreuzer-Skarke database or the Schöller-Skarke
 database. The data is fetched from the websites
@@ -93,7 +98,7 @@ Supported keyword arguments:
 
 # Examples
 ```jldoctest
-julia> fetch_polytopes(h11=4, lattice='N', limit=5)
+julia> fetch_polytopes(; h11=4, lattice='N', limit=5)
 5-element Vector{Matrix{Int64}}:
  [1 0 0 0; -1 0 0 0; … ; 1 0 1 2; -1 -2 -3 -2]
  [1 0 0 0; 0 1 0 0; … ; -1 -1 1 1; 0 0 -1 -1]
