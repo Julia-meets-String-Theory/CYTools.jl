@@ -10,9 +10,13 @@ database is supported, but in the future we may support weight systems.
 ```jldoctest
 julia> example_string = "4 5  M:201 5 N:7 5 H:1,149 [-296]\n1   1   1   1  -7\n0   2   2   2  -6\n0   0   8   0  -8\n0   0   0   8  -8";
 
-julia> read_polytopes(example_string, input_type="string")
-1-element Vector{Matrix{Int64}}:
- [1 0 0 0; 1 2 0 0; … ; 1 2 0 8; -7 -6 -8 -8]
+julia> polytopes = read_polytopes(example_string, input_type="string");
+
+julia> length(polytopes)
+1
+
+julia> polytopes[1]
+A polyhedron in ambient dimension 4
 ```
 """
 function read_polytopes(input::String; input_type::String="file", format::String="ks")
@@ -59,7 +63,7 @@ function read_polytopes(input::String; input_type::String="file", format::String
         end
         i += 1
     end
-    poly_verts
+    return [convex_hull(p) for p in poly_verts]
 end
 export read_polytopes
 
@@ -98,13 +102,13 @@ Supported keyword arguments:
 
 # Examples
 ```jldoctest
-julia> fetch_polytopes(; h11=4, lattice='N', limit=5)
-5-element Vector{Matrix{Int64}}:
- [1 0 0 0; -1 0 0 0; … ; 1 0 1 2; -1 -2 -3 -2]
- [1 0 0 0; 0 1 0 0; … ; -1 -1 1 1; 0 0 -1 -1]
- [1 0 0 0; 0 1 0 0; … ; 0 0 1 3; -1 1 -2 -3]
- [1 0 0 0; 0 1 0 0; … ; -1 -3 -1 -2; -2 0 -1 0]
- [1 0 0 0; 0 1 0 0; … ; 1 1 1 2; -3 -1 -1 -2]
+julia> polytopes = fetch_polytopes(; h11=4, lattice='N', limit=5);
+
+julia> polytopes[1]
+A polyhedron in ambient dimension 4
+
+julia> length(polytopes)
+5
 ```
 """
 function fetch_polytopes(; h11::Union{Int, Nothing}=nothing, h12::Union{Int, Nothing}=nothing,
