@@ -4,5 +4,6 @@
    "CYTools" => [
       "CYTools/Introduction.md"
       "CYTools/CYHypersurfaces.md"
+      "CYTools/Utilities.md"
    ],
 ]

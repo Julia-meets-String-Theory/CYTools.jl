@@ -12,7 +12,8 @@ makedocs(
     doctest = false,
     pages = ["index.md",
             "CYTools/Introduction.md",
-            "Functionality" => ["CYTools/CYHypersurfaces.md"],
+            "Functionality" => ["CYTools/CYHypersurfaces.md",
+                                "CYTools/Utilities.md" ],
             ]
     )
 
