@@ -1,7 +1,7 @@
 site_name:           CYTools.jl
 repo_url:            https://github.com/HereAround/CYTools.jl
 site_description:    CYTools
-site_author:         Martin Bies
+site_author:         Martin Bies, Andres Rios-Tascon
 
 theme:               readthedocs
 
