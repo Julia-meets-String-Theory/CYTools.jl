@@ -1,6 +1,7 @@
 name = "CYTools"
 uuid = "6ac8560f-9240-4675-9403-0b04e120aa3e"
-authors = ["Martin Bies <MBies87@googlemail.com>"]
+authors = ["Martin Bies <MBies87@googlemail.com>",
+           "Andres Rios-Tascon <ar2285@cornell.edu>"]
 version = "0.1.0"
 
 [deps]
