@@ -60,7 +60,7 @@ Contributions are highly appreciated. Please notice that:
 This software is work in progress of
 * [Martin Bies](https://martinbies.github.io/),
 * [Viraf Mehta](https://inspirehep.net/authors/1228975),
-* [Andres Rios Tascon](https://liammcallistergroup.com/author/andres-rios-tascon/).
+* [Andres Rios-Tascon](https://liammcallistergroup.com/author/andres-rios-tascon/).
 
 We use a `slack`-channel for general discussions. If you are interested in joining, please reach out to [Viraf Mehta](https://inspirehep.net/authors/1228975) via  `viraf.mehta@uni-goettingen.de` for details.
 
