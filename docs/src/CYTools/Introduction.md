@@ -27,7 +27,7 @@ This project just began. We are currently in the process of initiating the code 
 1. Install `Julia` on your computer. The latest version can be found [here](https://julialang.org/downloads/).
 2. Download this development version of `CYTools.jl`. Those interested in contributing should instead clone this repository:
 ```
-    git clone https://github.com/HereAround/CYTools.jl.git
+    git clone https://github.com/Julia-meets-String-Theory/CYTools.jl.git
 ```
 3. Place your clone/download in a location outside of the `.julia` folder of your home folder.
 4. Finally, register and build `CYTools.jl` as follows:
@@ -40,7 +40,7 @@ This project just began. We are currently in the process of initiating the code 
 
 ## Bugs and feature requests
 
-If you want to report a bug or request a feature, please do it by raising a [github issue](https://github.com/HereAround/CYTools.jl/issues).
+If you want to report a bug or request a feature, please do it by raising a [github issue](https://github.com/Julia-meets-String-Theory/CYTools.jl/issues).
 ```@docs
 version
 ```
@@ -49,7 +49,7 @@ version
 ## Contributions
 
 Contributions are highly appreciated. Please notice that:
-* Contributions must be done by opening a [pull request](https://github.com/HereAround/CYTools.jl/pulls).
+* Contributions must be done by opening a [pull request](https://github.com/Julia-meets-String-Theory/CYTools.jl/pulls).
 * Pull request must pass a number of checks that are automatically conducted by our test suite, before they can be merged. A further approval by a code owner is appreciated.
 * Code is expected to be in agreement with the [Oscar style guide](https://oscar-system.github.io/Oscar.jl/stable/DeveloperDocumentation/styleguide/).
 
